@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote of the Day</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Floating Background Particles -->
+  <div class="particles" id="particles"></div>
+  
+  <!-- Confetti Container -->
+  <div class="confetti-container" id="confettiContainer"></div>
+
+  <div class="container">
+    <h1 class="title">Quote of the Day</h1>
+    <div class="datetime-display" id="datetimeDisplay">
+      <span class="date" id="dateDisplay"></span>
+      <span class="time" id="timeDisplay"></span>
+    </div>
+    
+    <div class="quote-container" id="quoteContainer">
+      <!-- Decorative corner elements -->
+      <div class="corner-decoration top-left"></div>
+      <div class="corner-decoration top-right"></div>
+      <div class="corner-decoration bottom-left"></div>
+      <div class="corner-decoration bottom-right"></div>
+      
+      <div class="quote-box" id="quoteBox">
+        <div class="shine-effect"></div>
+        <p class="quote-text" id="quoteText">Click the button below to get your daily dose of inspiration!</p>
+        <p class="quote-author" id="quoteAuthor"></p>
+      </div>
+    </div>
+
+    <button class="new-quote-btn" id="newQuoteBtn">
+      <span class="btn-text">New Quote</span>
+      <span class="btn-icon">✨</span>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
